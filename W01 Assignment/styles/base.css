@@ -1,0 +1,56 @@
+body {
+    font-family: "Roboto", sans-serif;
+    display: grid;
+}
+
+p {
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-weight: 500;
+    font-style: italic;
+}
+
+header {
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    flex-direction: column;
+    background-color: rgb(44, 44, 165);
+	
+}
+
+.title, .menu-container {
+    width: 100%; /* Ancho máximo del 100% */
+    max-width: 1000px; /* Ancho máximo para evitar que se extiendan demasiado */
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+}
+
+.menu-container {
+    max-width: 100%;
+    color: antiquewhite;
+    padding: 5px;
+    background-color: rgb(33, 31, 31);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around; 
+    padding: 10px 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+	text-decoration:overline;
+}
