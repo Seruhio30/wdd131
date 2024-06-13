@@ -16,16 +16,16 @@
         </div>
         <div class="menu-container">
             <nav class="menu">
-                <a href="https://www.linkedin.com/in/sergio-herrera-rivera">LinkedIn</a>
-                <a href="https://byui.instructure.com/">I-Learm</a>
-                <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=spa">Scripture</a>
+                <a href="https://www.linkedin.com/in/sergio-herrera-rivera" target="_blank">LinkedIn</a>
+                <a href="https://byui.instructure.com/" target="_blank">I-Learm</a>
+                <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=spa" target="_blank">Scripture</a>
                 <a href="">Final Project</a>
             </nav>
         </div>
     </header>
     <main class="main-container">
-        <section class="card">
-            <div class="Container">
+        <section class="card"> 
+            <div class="container">
 
                 <div class="aboutMe">
                     <h1>About Me</h1>
@@ -48,7 +48,8 @@
                 </div>
                 <div class="country">
                    <h1>Costa Rica</h1>
-                   <hr>
+                   <hr class="line">
+                   
                 </div>
                
                 <div class="CR-description">
@@ -73,20 +74,25 @@
             </div>
         </section>
         <section class="card">
-            <div class="web">Web Dev Resourses</div>
-            <div>
-               <ul>
-                <li><a href="https://www.w3schools.com/">W3Schools</a></li>
-                <li><a href="https://mouredev.com/">MoureDev</a></li>
-                <li><a href="https://app.aluracursos.com/">Alura</a></li>
-               </ul>
-            </div>
+            <div class="container2">
+                <div class="web"><h1>Web Dev Resourses</h1></div>
+                <div class="list">
+                    <ul class="sep">
+                        <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                        <li><a href="https://mouredev.com/" target="_blank">MoureDev</a></li>
+                        <li><a href="https://app.aluracursos.com/" target="_blank">Alura</a></li>
+                    </ul>
+                </div>
+
+            </div>    
         </section>
         
     </main>
     <footer>
-        <p>&copy;  <span id="currentyear"></span> Sergio Herrera Rivera.</p>
-        <p>lastModified </p>
-    </footer>    
+        <p>&copy;  <span id="currentyear"></span> Sergio Herrera Rivera. Costa Rica</p>
+        <p> Last Modification: <span id="lastmodification"></span> </p>
+    </footer>  
+    
+    <script src="scripts/getdates.js"></script>
 </body>
 </html>
