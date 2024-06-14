@@ -72,6 +72,7 @@ nav a:hover {
 
 .container{
     display: grid;
+ 
     grid-template-columns: auto auto;
     grid-template-rows: repeat(7, auto);
     gap: 10px;
@@ -96,9 +97,11 @@ nav a:hover {
 }
 
 .picture-container {
+  
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     text-align: center;
+   
 }
 
 .picture-container img {
@@ -132,7 +135,6 @@ nav a:hover {
 
 .flag-container img  {
     max-width: 100%;
-    width: auto;
     height: auto;
     max-height: 150px;
     padding-left: 100px;
@@ -168,7 +170,7 @@ nav a:hover {
 
 .list {
     grid-row: 2/3;
-    padding-top: 150px;
+   
     display: flex;
     width: 100%;
     justify-content: center;
@@ -177,8 +179,13 @@ nav a:hover {
     
 }
 
+.sep{
+    padding-top: 120px;
+}
+
 .sep li {
     margin: 10px 0;
+    
 }
 
 .sep li a:hover {
@@ -196,4 +203,56 @@ footer {
     justify-content: center;
     align-items: center;
     padding:20px ;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .aboutMe, .country {
+        grid-column: 1 / -1;
+    }
+
+    .flag-container p {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .flag-container img {
+        padding-left: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .CR-description {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu a {
+        padding: 5px;
+    }
+
+    .main-container {
+        padding: 10px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .picture-container img, .flag-container img {
+        width: 100px;
+        padding-left: 0;
+    }
 }
