@@ -151,7 +151,7 @@ nav a:hover {
 
 .container2{
    
-    grid-template-rows: 3;
+    grid-template-rows: repeat(3, auto);
     gap: 10px;
    
 }
