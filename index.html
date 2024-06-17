@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js"></script>
 </head>
 <body>
     <header>
@@ -88,10 +89,6 @@
         <p class="pf">&copy; <span id="currentyear"></span> Sergio Herrera Rivera. Costa Rica</p>
         <p class="pf">Last Modification: <span id="lastModified"></span></p>
     </footer>  
-    <script>
-        // JavaScript to set the current year and last modified date
-        document.getElementById("currentyear").textContent = new Date().getFullYear();
-        document.getElementById("lastModified").textContent = document.lastModified;
-    </script>
+
 </body>
 </html>
