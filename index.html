@@ -1,102 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>WDD 131 - Dynamic Web Fundamentals - Sergio Herrera Rivera</title>
-        <meta name="description" content="Personal website of Sergio Herrera Rivera, a technical support representative with a passion for programming, traveling, and hiking.">
-        <meta name="author" content="Sergio Herrera Rivera">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles/base.css">
-        
-    </head>   
-    <body>
-        <header>
-            <div class="title">
-                <h1>WDD 131 - Dynamic Web Fundamentals - Sergio Herrera Rivera</h1>
-            </div>
-            <div class="menu-container">
-                <nav class="menu">
-                    <a href="https://www.linkedin.com/in/sergio-herrera-rivera" target="_blank">LinkedIn</a>
-                    <a href="https://byui.instructure.com/" target="_blank">I-Learm</a>
-                    <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=spa" target="_blank">Scripture</a>
-                    <a href="">Final Project</a>
-                </nav>
-            </div>
-        </header>
-        <main class="main-container">
-            <section class="card"> 
-                <div class="container">
-
-                    <div class="aboutMe">
-                        <h1>About Me</h1>
-                    </div>
-
-                    <div class="me">
-                        <p>
-                            My name is Sergio Herrera Rivera, and I was born in Costa Rica.
-                            I am currently employed in customer service as a technical support 
-                            representative for a renowned technology brand. My life centers around my family,
-                            and I have a strong passion for traveling and mountain hiking. Additionally,
-                            I am deeply enthusiastic about programming and aspire to make it an integral
-                            part of my life.
-                        </p>
-                    </div>
-
-                    <div class="picture-container">
-                        <Picture class="my-picture">
-                            <img id="photo" src="images/sergio.jpeg" alt="sergio-herrera-rivera">
-                        </Picture>
-                    </div>
-                    <div class="country">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Sergio Herrera Rivera</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals. Sergio Herrera Rivera. Personal website showcasing technical support experience, programming passion, and love for traveling and hiking.">
+    <meta name="author" content="Sergio Herrera Rivera">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>WDD 131 - Dynamic Web Fundamentals - Sergio Herrera Rivera</h1>
+        </div>
+        <div class="menu-container">
+            <nav class="menu">
+                <a href="https://www.linkedin.com/in/sergio-herrera-rivera" target="_blank">LinkedIn</a>
+                <a href="https://byui.instructure.com/" target="_blank">I-Learn</a>
+                <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=spa" target="_blank">Scripture</a>
+                <a href="#">Final Project</a>
+            </nav>
+        </div>
+    </header>
+    <main class="main-container">
+        <section class="card"> 
+            <div class="container">
+                <div class="aboutMe">
+                    <h1>About Me</h1>
+                </div>
+                <div class="me">
+                    <p>
+                        My name is Sergio Herrera Rivera, and I was born in Costa Rica.
+                        I am currently employed in customer service as a technical support 
+                        representative for a renowned technology brand. My life centers around my family,
+                        and I have a strong passion for traveling and mountain hiking. Additionally,
+                        I am deeply enthusiastic about programming and aspire to make it an integral
+                        part of my life.
+                    </p>
+                </div>
+                <div class="picture-container">
+                    <picture class="my-picture">
+                        <img id="photo" src="images/sergio.jpeg" alt="Sergio Herrera Rivera">
+                    </picture>
+                </div>
+                <div class="country">
                     <h2>Costa Rica</h2>
                     <hr class="line">
-                    
-                    </div>
-                
-                    <div class="CR-description">
-                        <p>Costa Rica, a Central American country known for its rich biodiversity and 
-                            stunning landscapes, is a haven for nature enthusiasts. It boasts beautiful
-                            beaches along the Pacific and Caribbean coasts, lush rainforests,
-                            and an impressive array of wildlife, including sloths, toucans,
-                            and howler monkeys. Costa Rica is celebrated for its commitment to 
-                            environmental sustainability, with extensive national parks and protected areas.
-                            The country's "Pura Vida" lifestyle, emphasizing a laid-back and positive 
-                            attitude, reflects the friendly and welcoming nature of its people.
-                            </p>
-                    </div>
-                    
-                    <div class="flag-container">
-                        <picture class="flag">
-                            <img id="CR-flag" src="images/cr-flag.jpg" alt="Flag of Costa Rica">
-                        </picture>
-                        <p>Oficial flag of Costa Rica</p>
-                    </div>
-                    
                 </div>
-            </section>
-            <section class="card">
-                <div class="container2">
-                    <div class="web"><h2>Web Dev Resourses</h2></div>
-                    <div class="list">
-                        <ul class="sep">
-                            <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
-                            <li><a href="https://mouredev.com/" target="_blank">MoureDev</a></li>
-                            <li><a href="https://app.aluracursos.com/" target="_blank">Alura</a></li>
-                        </ul>
-                    </div>
-
-                </div>    
-            </section>
-            
-        </main>
-        <footer>
-            <p class="pf">&copy;<span id="currentyear"></span> Sergio Herrera Rivera. Costa Rica</p>
-            <p class="pf"> Last Modification: <span id="lastmodification"></span> </p>
-        </footer>  
-        
-        <script src="scripts/getdates.js"></script>
-    </body>
+                <div class="CR-description">
+                    <p>Costa Rica, a Central American country known for its rich biodiversity and 
+                        stunning landscapes, is a haven for nature enthusiasts. It boasts beautiful
+                        beaches along the Pacific and Caribbean coasts, lush rainforests,
+                        and an impressive array of wildlife, including sloths, toucans,
+                        and howler monkeys. Costa Rica is celebrated for its commitment to 
+                        environmental sustainability, with extensive national parks and protected areas.
+                        The country's "Pura Vida" lifestyle, emphasizing a laid-back and positive 
+                        attitude, reflects the friendly and welcoming nature of its people.
+                    </p>
+                </div>
+                <div class="flag-container">
+                    <picture class="flag">
+                        <img id="CR-flag" src="images/cr-flag.jpg" alt="Flag of Costa Rica">
+                    </picture>
+                    <p>Official flag of Costa Rica</p>
+                </div>
+            </div>
+        </section>
+        <section class="card">
+            <div class="container2">
+                <div class="web">
+                    <h2>Web Dev Resources</h2>
+                </div>
+                <div class="list">
+                    <ul class="sep">
+                        <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                        <li><a href="https://mouredev.com/" target="_blank">MoureDev</a></li>
+                        <li><a href="https://app.aluracursos.com/" target="_blank">Alura</a></li>
+                    </ul>
+                </div>
+            </div>    
+        </section>
+    </main>
+    <footer>
+        <p class="pf">&copy; <span id="currentyear"></span> Sergio Herrera Rivera. Costa Rica</p>
+        <p class="pf">Last Modification: <span id="lastModified"></span></p>
+    </footer>  
+    <script>
+        // JavaScript to set the current year and last modified date
+        document.getElementById("currentyear").textContent = new Date().getFullYear();
+        document.getElementById("lastModified").textContent = document.lastModified;
+    </script>
+</body>
 </html>
