@@ -4,6 +4,10 @@ header, footer {
     padding: 1em 10%;
 }
 
+header h1 {
+    margin-right: 2em;
+}
+
 nav ul {
     justify-content: flex-start;
 }
