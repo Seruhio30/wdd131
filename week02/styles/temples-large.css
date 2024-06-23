@@ -1,0 +1,14 @@
+/* styles/temples-large.css */
+header, footer {
+    text-align: left;
+    padding: 1em 10%;
+}
+
+nav ul {
+    justify-content: flex-start;
+}
+
+main {
+    padding: 2em 10%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
