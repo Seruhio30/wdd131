@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em 0;
+    padding: 1em;
 }
 
 nav ul {
@@ -21,7 +21,6 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;
     gap: 1em;
 }
 
@@ -41,12 +40,25 @@ nav a:hover {
 }
 
 main {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    align-items: start;
+    text-align: center;
     padding: 1em;
     max-width: 800px;
     margin: 0 auto;
+}
+
+main h2 {
+    margin: 0;
+    grid-row: 1;
+}
+
+main div {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1em;
+    grid-row: 2;
 }
 
 figure {
@@ -71,4 +83,48 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1em 0;
+}
+
+#hamburger {
+    display: none;
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#hamburger::before {
+    content: "☰";
+}
+
+#hamburger.open::before {
+    content: "❎";
+}
+
+@media (max-width: 37.5em) {
+    h1 {
+        font-size: 2.5rem;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #nav-menu ul {
+        display: none;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    #nav-menu.open ul {
+        display: flex;
+    }
+
+    #hamburger {
+        display: block;
+    }
 }

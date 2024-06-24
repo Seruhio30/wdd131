@@ -1,11 +1,21 @@
 /* styles/temples-large.css */
-header, footer {
-    text-align: left;
+header {
     padding: 1em 10%;
 }
 
-header h1 {
-    margin-right: 2em;
+h1 {
+    text-align: left;
+    font-family: times, serif;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: navy;
+    text-align: center;
+    margin: 1rem;
+    gap: 1em;
 }
 
 nav ul {
@@ -14,5 +24,12 @@ nav ul {
 
 main {
     padding: 2em 10%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+main div {
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1em;
 }
