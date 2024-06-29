@@ -11,6 +11,56 @@
     <script src="scripts/place.js" defer></script>
 </head>
 <body>
+    <header>
+        <h1>Costa Rica</h1>
+    </header>
+    <main>
+        <div>
+            <picture class="hero-img">
+                <source media="(min-width: 1000px)" srcset="images/hero-CR-large.webp">
+                <source media="(min-width:500px )" srcset="images/hero-CR-medium">
+                <img src="images/hero-CR-small.webp" alt="">
+            </picture>
+        </div>
+        <section class="data-info">
+            <h2>Data</h2>
+            <h3>Area:</h3>
+            <p></p>
+            <h3>population:</h3>
+            <p></p>
+            <h3>Capital:</h3>
+            <p></p>
+            <h3>Languages</h3>
+            <p></p>
+            <h3>Currency</h3>
+            <p></p>
+            <h3>Time Zone</h3>
+            <p></p>
+            <h3>Calling Code:</h3>
+            <p></p>
+            <h3>Internet TLD:</h3>
+            <p></p>
+        </section>
+        <section class="weather-info">
+            <h2>Wether</h2>
+            <div>
+                <img src="images/1530391_weather_clouds_sun_sunny_icon.svg" alt="">
+            </div>
+            <h3>Temperature</h3>
+            <p><span id="temperature">xx</span></p>
+            <h3>Conditions</h3>
+            <p><span id="conditions">xx</span></p>
+            <h3>Wind</h3>
+            <p><span id="wind">xx</span></p>
+            <h3>Wind Chill</h3>
+            <p><span id="wind-chill"></span>xx</p>
+        </section>
+    </main>
+
+    <footer>
+        <p class="pf">&copy; <span id="currentyear"></span> Sergio Herrera Rivera. Costa Rica</p>
+        <p class="pf">Last Modification: <span id="lastModified"></span></p>
+    </footer>
     
 </body>
 </html>
