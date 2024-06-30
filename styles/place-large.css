@@ -1,4 +1,12 @@
 @media (min-width: 1000px) {
+
+    :root {
+        --blue: #2f58be;
+        --red: #e33342;
+        --white: #FFFFFF;
+        --roboto: "Roboto", sans-serif;
+        --backgrnd-transparent: hsla(228, 91%, 32%, 0.307);
+    }
     .icon {
         grid-column: 2/3;
         display: flex;
