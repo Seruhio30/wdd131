@@ -26,6 +26,10 @@
         left: 80%;
         transform: translate(-50%, -50%);
     }
+    .weather h2::after {
+        
+        padding-left:1rem;
+    }
 
     .data-info, .weather-info {
         background-color: var(--backgrnd-transparent);
