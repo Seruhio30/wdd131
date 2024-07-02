@@ -76,7 +76,7 @@ figure img {
 figcaption {
     margin-top: 0.5em;
     font-style: italic;
-}
+}k
 
 footer {
     background-color: #3f51b5;
@@ -92,6 +92,14 @@ footer {
     border: none;
     color: #fff;
     cursor: pointer;
+    position: absolute;
+	top: 0.5rem;
+	right: 0.5rem;
+    padding-top: 7px;
+   
+   ;
+	
+    cursor: pointer;
 }
 
 #hamburger::before {
@@ -100,6 +108,7 @@ footer {
 
 #hamburger.open::before {
     content: "❎";
+    justify-self: left;
 }
 
 @media (max-width: 37.5em) {
@@ -114,17 +123,28 @@ footer {
         text-align: center;
     }
 
+
+    #nav-menu {
+        margin-right: 1.5rem; 
+    }
+
     #nav-menu ul {
         display: none;
         flex-direction: column;
-        gap: 0;
+        gap: 0.5;
     }
 
     #nav-menu.open ul {
         display: flex;
     }
 
+    nav a:hover {
+        color:#00ff8e;
+    }
+
     #hamburger {
         display: block;
     }
 }
+
+
