@@ -96,11 +96,11 @@ const temples = [
         imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/2018/400x250/slctemple5.jpg"
     },
     {
-        templeName: "Manti",
-        location: "Manti, Utah",
-        dedicated: "1877, April, 25",
-        area: 74792,
-        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah//400x250/manti-temple-768192-wallpaper.jpg"
+        templeName: "Vernal",
+        location: "Vernal, Utah",
+        dedicated: "1997, November, 2-4",
+        area: 38710,
+        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/vernal-utah/vernal-temple-lds-82531-wallpaper.jpg"
     }
 ];
 
@@ -157,7 +157,7 @@ const displayTemples = (filteredTemples) => {
 displayTemples(temples);
 
 // Filtrar templos y agregar event listeners para los enlaces del menú
-//document.getElementById('home').addEventListener('click', ()=> displayTemples);
+document.getElementById('home').addEventListener('click', ()=> displayTemples(temples));
 document.getElementById('old').addEventListener('click', () => {
     const oldTemples = temples.filter(temple => new Date(temple.dedicated) < new Date("1900-01-01"));
     displayTemples(oldTemples);
