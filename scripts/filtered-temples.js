@@ -157,7 +157,7 @@ const displayTemples = (filteredTemples) => {
 displayTemples(temples);
 
 // Filtrar templos y agregar event listeners para los enlaces del menú
-document.getElementById('home').addEventListener('click', ()=> displayTemples);
+//document.getElementById('home').addEventListener('click', ()=> displayTemples);
 document.getElementById('old').addEventListener('click', () => {
     const oldTemples = temples.filter(temple => new Date(temple.dedicated) < new Date("1900-01-01"));
     displayTemples(oldTemples);
