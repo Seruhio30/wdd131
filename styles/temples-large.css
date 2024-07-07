@@ -33,3 +33,13 @@ main div {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1em;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(68, 78, 192);
+    justify-content: center;
+    align-items: center;
+    padding:20px ;
+}
