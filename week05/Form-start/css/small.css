@@ -49,6 +49,7 @@ main {
     min-height: 20rem;
 }
 
+
 /*--------------Form styling*-----------*/
 .wf1 fieldset {
     margin: 2rem 0;
@@ -95,6 +96,8 @@ main {
     appearance: none;
 
 }
+
+
 
 .wf1 input[type="radio"],
 .wf1 input[type="checkbox"]{
