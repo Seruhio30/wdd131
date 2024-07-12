@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - sergio Herrera Rivera. Form">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - sergio Herrera Rivera.Product review">
     <meta name="author" content="Sergio Herrera Rivera">
     <title>Form</title>
     <link rel="stylesheet" href="styles/form.css">
-    <script src="scripts/form.js"></script>
+    <script src="scripts/form.js" defer></script>
 </head>
 <body>
     <h1>Product Review</h1>
@@ -23,7 +23,7 @@
             </fieldset>
 
             <fieldset>
-                <label for="">Overal Rating</label>
+                <label for="overal">Overal Rating</label>
                 <div class="stars">
                     <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
                     <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
@@ -34,13 +34,13 @@
             </fieldset>
 
             <fieldset>
-                <label for="">Date of Installation</label>
+                <label for="date">Date of Installation</label>
                 <input type="date" name="installation" id="instal-date" required>
             </fieldset>
 
             <fieldset>
                 <div class="checkbox-container">
-                    <label for="">Useful Features</label>
+                    <label for="features">Useful Features</label>
                     <label for="check1"><input type="checkbox" name="durability" id="check1">Durability</label>
                     <label for="check2"><input type="checkbox" name="easy of use" id="check2">Easy Of Use</label>
                     <label for="check3"><input type="checkbox" name="performance" id="check3">Performance</label>
@@ -49,12 +49,12 @@
             </fieldset>
 
             <fieldset>
-                <label for="">Written Review (optional)</label>
+                <label for="written">Written Review (optional)</label>
                 <textarea name="writeten review" id="review"></textarea>
             </fieldset>
 
             <fieldset>
-                <label for="">User Name (optional)</label>
+                <label for="name">User Name (optional)</label>
                 <input type="text" name="user Name" id="name">
             </fieldset>
 
