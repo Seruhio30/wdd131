@@ -243,9 +243,9 @@ nav a {
 /*section three */
 .three {
     display: grid;
-    grid-template-columns: 1fr; /* Una columna */
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(4, auto);
-    gap: 20px; /* Space between grid items */
+    gap: 20px; 
     padding: 20px;
     background-color: #97e5f0;
     display: grid;
@@ -266,7 +266,7 @@ nav a {
 .three img {
     width: 100%;
     height: auto;
-    max-width: 300px; /* Adjust the size as needed */
+    max-width: 300px; 
     margin-bottom: 10px;
    
 }
