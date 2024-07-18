@@ -42,6 +42,7 @@ h2 {
 
 #nav-menu.open ul {
     display: flex;
+    
 }
 
 nav a:hover {

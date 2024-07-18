@@ -1,0 +1,124 @@
+@media (min-width: 740px) {
+
+    #page-name {
+        margin-left: 40px;
+    }
+
+    .nav-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #nav-menu ul {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        gap: 5.5rem;
+        padding-right: 250px;
+    }
+
+
+
+    nav a:hover {
+        background-color: #283593;
+        color: #e0f7fa;
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    .logo-section-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .logo-container {
+        flex: 0 0 25%;
+        padding-left: 130px;
+    }
+
+    .web-info {
+        flex: 0 0 75%;
+    }
+
+    .one {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .left-column {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+    }
+
+    .right-column {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        gap: 10px;
+        border: 1px solid gray;
+        padding: 10px;
+    }
+
+    .img-mochila {
+        width:70%;
+        margin-left: 50px;
+        position: relative;
+    }
+
+    .destacado {
+        width: 50%;
+        position: absolute; 
+        margin-top: 10px;
+        top: 5; /* Ajusta según sea necesario */
+        left: 0; /* Ajusta según sea necesario */
+        z-index: 1; 
+       
+    }
+
+    .destacado h2{
+        color: rgb(173, 51, 7);
+        background: transparent; 
+        border: none;
+    }
+
+    #emergency-img {
+        width: 300px;
+    }
+
+    /*card scenarios*/
+    .card {
+        height: 80px;
+    }
+    .card-front {
+        justify-content: center;
+        text-align: center;
+        padding-top: 15px;
+        
+    }
+
+    /*scenarios*/
+    .card-front, .card-back {
+        border-radius: 10px;
+        font-size: 1.2em;
+    }
+
+    /*-------end---------*/
+
+    /*section three*/
+
+    .three {
+        grid-template-columns: 1fr 1fr; /* Two columns */
+        grid-template-rows: 1fr 1fr; /* Two rows */
+    }
+
+
+
+
+
+   
+   
+}
