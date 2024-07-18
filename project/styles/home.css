@@ -28,9 +28,11 @@ header {
 
 .page-name-container {
     margin: 10px 0;
+   
 }
 
 #page-name {
+    color: #551a8b;
     padding-left: 10px;
 }
 
@@ -154,6 +156,7 @@ nav a {
     width: max-content;
     padding: 5px;
     margin: 0 auto;
+    color: orangered;
    
 }
 
@@ -224,6 +227,7 @@ nav a {
     font-weight: bold;
     color: orangered;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    justify-content: center;
 }
 
 .card-front {
