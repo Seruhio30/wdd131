@@ -1,47 +1,6 @@
 @media (min-width: 740px) {
 
-    #page-name {
-        margin-left: 40px;
-    }
-
-    .nav-container {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    #nav-menu ul {
-        display: flex;
-        flex-direction: row;
-        padding: 0;
-        gap: 5.5rem;
-        padding-right: 250px;
-    }
-
-
-
-    nav a:hover {
-        background-color: #283593;
-        color: #e0f7fa;
-    }
-
-    #hamburger {
-        display: none;
-    }
-
-    .logo-section-container {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .logo-container {
-        flex: 0 0 25%;
-        padding-left: 130px;
-    }
-
-    .web-info {
-        flex: 0 0 75%;
-    }
-
+    
     .one {
         display: grid;
         grid-template-columns: 1fr 1fr;

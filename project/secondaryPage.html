@@ -9,11 +9,133 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/commun.css">
+    <link rel="stylesheet" href="styles/secondaryPage.css">
+   
+
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+        <div class="nav-container">
+            <div class="page-name-container">
+                <h3 id="page-name">Survival72</h3>
+            </div>
+            <button id="hamburger" aria-label="Toggle navigation" ></button>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html" id="home">Home</a></li>
+                    <li><a href="secondaryPage.html" id="how to">HowTo</a></li>
+                    <li><a href="#" id="galery">Galery</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="logo-section-container">
+            <div class="logo-container">
+                <img src="img/sitePlan-img/logo-suvivor72.webp" alt="logo" id="logo">
+            </div>
+            <div class="web-info">
+                <p class="justified-text"> The website focuses on emergency preparedness for natural disasters,
+                     including floods, earthquakes, hurricanes, wildfires, tornadoes, and landslides. 
+                     The site will emphasize the importance of having a 72-hour survival kit and provide
+                      comprehensive information to help individuals and families prepare for various emergencies.
+                </p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="backPack72">
+            <div class="backPack-info">
+                <div class="h2-container">
+                    <h2>What is a 72-Hour Emergency Kit?</h2>
+                </div>
+                
+                <p id="one">A 72-hour emergency kit, also known as a "go bag" or "bug-out bag," 
+                    is a portable collection of essential items designed to sustain an individual
+                    or family for three days during a disaster or emergency. This kit typically includes food,
+                    water, first aid supplies, clothing, tools, and other necessities. The 72-hour timeframe is
+                    based on the assumption that it may take up to three days for emergency responders to reach
+                     those affected by a disaster, making it crucial for individuals to have the necessary 
+                     supplies to survive on their own until help arrives.
+                </p>
+            </div>
+
+            <div class="backPack-info" id="list">
+
+                <div class="h2-container">
+                    <h2>What should a 72-hour emergency kit contain?</h2>
+                </div>
+                <ul class="zebra-list">
+                    <li id="li">
+                        <h3>Water</h3>
+                        <p>At least one gallon per person per day.</p>
+                    </li>
+                    <li id="li">
+                        <h3>Food</h3>
+                        <p>Non-perishable items like canned goods, protein bars, dried fruits, and nuts.</p>
+                    </li>
+                    <li id="li">
+                        <h3>Clothing and Bedding</h3>
+                        <p>A change of clothes, sturdy shoes, and a sleeping bag or blanket for each person.</p>
+                    </li>
+                    <li id="li">
+                        <h3>Tools and Supplies</h3>
+                        <p>A flashlight with extra batteries, multi-purpose tool, matches in a waterproof container, and a whistle.</p>
+                    </li>
+                    <li id="li">
+                        <h3>First Aid Kit</h3>
+                        <p>Basic supplies like bandages, antiseptic wipes, tweezers, and any necessary prescription medications.</p>
+                    </li>
+                    <li id="li">
+                        <h3>Sanitation</h3>
+                        <p>Moist towelettes, garbage bags, and plastic ties for personal sanitation.</p>
+                    </li>
+                    <li id="li">
+                        <h3>Personal Documents</h3>
+                        <p>Copies of important documents such as insurance policies, identification, and bank account records in a waterproof, portable container.</p>
+                    </li>
+                    <li id="li">
+                        <h3>Miscellaneous Items</h3>
+                        <p>Local maps, a cell phone with chargers, and cash in small denominations.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="video-container">
+                <div id="h2-container">
+                    <h2>Video Guide  for a 72-Hour Emergency Kit</h2>
+                    <div class="iframe">
+                        <iframe width="560" height="215" src="https://www.youtube.com/embed/LWOBVGR6t2g?si=E3wnoQp9RnBAxx_O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            
+           
+        </section>
+
+        <section id="plan">
+            <div class="h2-container">
+                <h2>Create An Emergency Plan</h2>
+            </div>
+
+            <p>
+                Creating a family emergency plan is crucial because it ensures that all family members
+                know what to do and where to go in case of a disaster. This preparation reduces panic,
+                minimizes confusion, and increases the chances of everyone staying safe and reuniting
+                quickly. A well-thought-out plan includes communication strategies, designated meeting
+                spots, and essential emergency contacts, helping families navigate the chaos of unexpected
+                events more effectively.
+            </p>
+            <div class="video-container">
+                <iframe width="560" height="215" src="https://www.youtube.com/embed/syvpQx0e3oc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p class="pf">&copy; <span id="currentyear"></span> Sergio Herrera Rivera. Costa Rica</p>
+        <p class="pf">Last Modification: <span id="lastModified"></span></p>
+    </footer>
     
 </body>
 </html>

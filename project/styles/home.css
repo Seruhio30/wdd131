@@ -1,116 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    line-height: 1.6;
-    color: #333;
-    background-color: #97e5f0;
-    overflow-x: hidden;
-}
-
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #97e5f0;
-}
-
-.nav-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-.page-name-container {
-    margin: 10px 0;
-   
-}
-
-#page-name {
-    color: #551a8b;
-    padding-left: 10px;
-}
 
 
-#nav-menu ul {
-    display: none;
-    flex-direction: column;
-    padding-top: 30px;
-    gap: 0.5rem;
-    list-style: none;
-}
-
-nav a {
-    text-decoration: none;
-    padding: 0.5em;
-    transition: background-color 0.3s;
-}
-
-
-
-#nav-menu.open ul {
-    display: flex;
-    
-}
-
-#hamburger {
-    font-size: 1.5em;
-    background: none;
-    border: none;
-    color: black;
-    cursor: pointer;
-    padding-top: 7px;
-    display: block;
-    align-self: flex-end;
-    margin-right: 10px;
-    position: absolute;
-    top: 0.1rem;
-    right: 5rem;
-   
-}
-
-#hamburger::before {
-    content: "☰";
-}
-
-#hamburger.open::before {
-    content: "❎";
-}
-
-
-.logo-section-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    width: 100%;
-}
-
-.logo-container {
-    margin-bottom: 10px;
-}
-
-#logo {
-    width: 150px;
-    height: auto;
-}
-
-.web-info {
-    max-width: 90%;
-    margin: 0 auto;
-    padding: 5px;
-    box-sizing: border-box;
-    /*border: 1px solid #6a85f3;*/
-}
-
-.justified-text {
-    text-align: justify;
-}
 
 /* Section one */
 .one {
@@ -156,7 +45,7 @@ nav a {
     width: max-content;
     padding: 5px;
     margin: 0 auto;
-    color: orangered;
+    color: #535c7a;
    
 }
 
@@ -175,6 +64,8 @@ nav a {
     width: 100px;
     height: 30px;
     border: 1px solid goldenrod;
+    color: #0d0e10;
+    font-weight: bold;
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -225,7 +116,7 @@ nav a {
     display: flex;
     font-size: 1.2em;
     font-weight: bold;
-    color: orangered;
+    color: #535c7a;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     justify-content: center;
 }
@@ -279,11 +170,3 @@ nav a {
 }
 
 
-
-/*footer*/
-footer {
-    background-color: #84e4f1;
-    color: #5518ab;
-    text-align: center;
-    padding: 1em 0;
-}
