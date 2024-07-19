@@ -1,0 +1,158 @@
+body {
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    background-color: #e0f7fa;
+}
+
+h1 {
+    border: solid 2px rgb(134, 134, 236);
+    border-radius: 3px;
+    background-color: #97e5f0;
+    color: rgb(83, 92, 122);
+    text-align: center;
+    padding: .8rem;
+    width: 100%;
+    max-width: 410px;
+    margin: 0 auto;
+    margin-bottom: .75rem;
+    margin-top: 5px;
+}
+
+.container {
+    border: solid 2px rgb(134, 134, 236);
+    background-color: #97e5f0;
+    margin: 0 auto;
+    border-radius: 3px;
+    padding: .8rem;
+    width: 100%;
+    max-width: 410px;
+    margin-bottom: .75rem;
+    text-align: center;
+}
+
+fieldset {
+    margin: 2rem 0;
+    border: solid 1px #ddd;
+    border-radius: 6px;
+   
+}
+
+label {
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: rgb(83, 92, 122);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 345px;
+}
+
+/* stars */
+input[type="radio"] {
+    display: none;
+    position: relative;
+    caret-color: rgba(228, 132, 69, 0.931);
+}
+
+.stars {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+	
+}
+.stars label{
+	padding: 5px;
+}
+.stars > label {
+    color: gold;
+    width: 30px;
+    height: 30px;
+    font-size: 2rem;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    caret-color: rgba(0, 0, 0, 0); /* remove blinking cursor*/
+}
+
+.stars > label:hover {
+    color: #000;
+}
+
+.stars > label::before {
+    content: "\2606";
+}
+
+.stars input:checked ~ label::before {
+    content: "\2605";
+}
+
+/*----------------start end------------*/
+
+.checkbox-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinea los checkboxes a la izquierda */
+    margin-left: 8rem;
+}
+
+.checkbox-container label {
+	padding: 5px;
+}
+	
+.checkbox-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start; /* Alinea los checkboxes a la izquierda */
+	margin-left: 8rem;
+}
+
+
+.checkbox-container input[type="checkbox"] {
+	transform: scale(1.2);
+	border: 2px solid black;
+	margin-right: 6px;
+}
+
+.checkbox-container input[type="checkbox"]:hover {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.974); 
+}
+
+
+#questions {
+	width: 100%;
+	max-width: 340px;
+	height: 100px;
+}
+
+#name {
+	width: 100%;
+	max-width: 340px;
+	padding-left: 2rem;
+}
+
+#submit {
+	border: none;
+	background-color: #445ba9;
+	color: #fff;
+	border-radius: 6px;
+	padding: .8rem;
+	width: 96%;
+	max-width: 400px;
+	margin: -1rem 2% 2rem 2%;
+}
+
+
+
+	
+
+

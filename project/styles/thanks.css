@@ -1,0 +1,23 @@
+main {
+    background-color: #e0f7fa;
+}
+
+.thank-you-container {
+   
+    justify-items: center;
+    width: 100%;
+    height: 200px;
+    border: 2px double #1e575e ;
+    
+}
+
+h1 {
+    text-align: center;
+    color: rgb(83, 92, 122);
+    margin: 20px;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
