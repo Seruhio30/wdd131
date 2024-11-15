@@ -8,43 +8,46 @@
     <title>Form</title>
     <link rel="stylesheet" href="styles/commun.css">
     <link rel="stylesheet" href="styles/form.css">
-    <script src="scripts/final-project.js" defer></script>
+    
 </head>
 <body>
-    <h1>Subscribe</h1>
+    <h1>Subscribete</h1>
     <div class="container">
-        <form method="get" action="thanks.html">
+        <form id="subscriptionForm">
+
+
+
             <fieldset>
-                <legend>User Information</legend>
-                <label>First Name*<input type="text" name="fname" required></label>
-                <label>Last Name*<input type="text" name="lname" required></label>
-                <label>email*<input type="email" name="fname" placeholder="abc@dfg.com"></label>
+                <legend>Informacion de Usuariio</legend>
+                <label>Primer Nombre*<input type="text" name="fname" required></label>
+                <label>Apellidos*<input type="text" name="lname" required></label>
+                <label>*Correo electrónico**<input type="email" name="email" placeholder="abc@dfg.com"></label>
                 
             </fieldset>
 
             <fieldset>
-                <label>Subscribe Date</label>
+                <label>Fecha De Suscripcion</label>
                 <input type="date" name="installation" id="instal-date" required>
             </fieldset>
 
             <fieldset>
                 <div class="checkbox-container">
-                    <label>I want info about</label>
-                    <label for="check1"><input type="checkbox" name="earthquake" id="check1">Earthquake</label>
-                    <label for="check2"><input type="checkbox" name="flood" id="check2">Flood</label>
-                    <label for="check3"><input type="checkbox" name="hurricane" id="check3">Hurricane</label>
-                    <label for="check4"><input type="checkbox" name="landslide" id="check4">Landslide</label>
+                    <label>Quiero informacion acerca de:</label>
+                    <label for="check1"><input type="checkbox" name="earthquake" id="check1">Terremotos</label>
+                    <label for="check2"><input type="checkbox" name="flood" id="check2">Inundaciones</label>
+                    <label for="check3"><input type="checkbox" name="hurricane" id="check3">Huracanes</label>
+                    <label for="check4"><input type="checkbox" name="landslide" id="check4">Deslizamientos</label>
                 </div>  
             </fieldset>
 
             <fieldset>
-                <label>Ask The Experts</label></label>
+                <label>Tienes alguna duda?</label></label>
                 <textarea name="Ask a Question" id="questions"></textarea>
             </fieldset>
 
 
             <fieldset>
-                <label>Rating Us</label>
+                <label>Califícanos</label>
                 <div class="stars">
                     <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
                     <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
@@ -54,13 +57,14 @@
                 </div>
             </fieldset>
 
-            <input id="submit" type="submit" value="Subscribe">
+            <input id="submit" type="submit" value="Subscribite">
         </form>
     </div>
     
     <footer>
         <p class="pf">&copy; <span id="currentyear"></span> Sergio Herrera Rivera. Costa Rica</p>
-        <p class="pf">Last Modification: <span id="lastModified"></span></p>
+        <p class="pf">Ultima Modificacion: <span id="lastModified"></span></p>
     </footer>
+    <script src="scripts/final-project.js"></script>
 </body>
 </html>
